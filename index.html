@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://unpkg.com/bootstrap@4.0.0/dist/css/bootstrap.css'>
+  <link rel='stylesheet' href='https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/Home.css">
+  <link rel="stylesheet" href="./css/fonts/fonts.css">
+
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark justify-content-between align-items-start">
+    <div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav d-flex align-items-start">
+          <li class="nav-item navbar-brand-content">
+            <a class="navbar-brand text-white" href="./Sklep.html"><b>SKLEP</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">O Twisted Triton</a>
+            <div class="dropdown-menu aria-labelledby=" navbarDropdown">
+              <a class="dropdown-item" href="./Onas.html">O nac</a>
+              <a class="dropdown-item" href="./Bransoletki.html">Bransoleki</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Kontakt.html">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Morskie.html">Morskie opowieści</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <a class="logo-img" href="./index.html">
+      <img class="logo" src="./img/logo-light.png" alt="logo">
+    </a>
+    <div class="nav-link basket-text" href="#" text-color="white">Koszyk (0)</div>
+    <div class="nav-link basket-icon" href="#">
+      <img src="./img/navnar-icon-light.png" alt="Basket" class="px-auto py-auto">
+    </div>
+  </nav>
+  <header class="main-section d-flex justify-content-center align-items-center">
+    <div id="main-carousel" class="carousel" data-ride="carousel" data-interval="7000">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#main-carousel" data-slide-to="1"></li>
+        <li data-target="#main-carousel" data-slide-to="2"></li>
+      </ul>
+      <!-- The slideshow -->
+      <div class="carousel-inner w-100 h-100">
+        <div class="carousel-item w-100 h-100 active">
+          <img src="./img/Home/main-bg1.png" alt="carousel" class="w-100 h-100">
+        </div>
+        <div class="carousel-item w-100 h-100">
+          <img src="./img/Home/main-bg2.png" alt="carousel" class="w-100 h-100">
+        </div>
+        <div class="carousel-item w-100 h-100">
+          <img src="./img/Home/main-bg3.png" alt="carousel" class="w-100 h-100">
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mx-auto my-auto">
+      <div class="text-center text-white header-text">
+        <h1>Wyznacz swój kierunek</h1>
+        <p class="py-4">Surowa północ czy beztroskie południe?<br>
+          Wybierz swoją bransoletkę inspirowaną autentyczną morską wyprawą<br>
+          i stwórz własną opowieść.</p>
+        <button type="button" class="btn btn-light btn-customize">Odkryj bransoletki</button>
+      </div>
+    </div>
+    <div class="main-section-bottom-bar d-flex justify-content-end align-items-center">
+      <div class="d-flex bottome-bar-hidden">
+        <p class="main-bottom-text my-auto mr-4">We use cookies to provide you with the best possible
+          experience.
+          They also allow us to analyze web traffic.
+          Read more about cookies.</p>
+        <button type="button" class="btn btn-dark btn-customize main-bottom-btn main-bottom-btn-text mx-4">Rozumiem i
+          akceptuję</button>
+      </div>
+    </div>
+  </header>
+  <!-- Best Product -->
+  <section class="product-section container-fluid">
+    <h2 class="product-title">Bestsellery</h2>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+      <div class="carousel-inner row">
+        <div class="carousel-item col-lg-3 active">
+          <div class="card">
+            <div class="card-content">
+              <img class="product-img" src="./img/product1.png" alt="Hilier Bracelet">
+              <div class="container">
+                <p class="compass-text">
+                  <span><img src="./img/compass.png" alt="compass"></span>
+                  34’ S 49' N
+                </p>
+                <h3 class="pb-1">Hilier Bracelet</h3>
+                <p class="budget-text  pb-3 pb-3">100 PLN</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-lg-3">
+          <div class="card">
+            <div class="card-content">
+              <img class="product-img" src="./img/product2.png" alt="Hilier Bracelet">
+              <div class="container">
+                <p class="compass-text">
+                  <span><img src="./img/compass.png" alt="compass"></span>
+                  34’ S 49' N
+                </p>
+                <h3 class="pb-1">Hilier Bracelet</h3>
+                <p class="budget-text  pb-3 pb-3">100 PLN</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-lg-3">
+          <div class="card">
+            <div class="card-content">
+              <img class="product-img" src="./img/product3.png" alt="Hilier Bracelet">
+              <div class="container">
+                <p class="compass-text">
+                  <span><img src="./img/compass.png" alt="compass"></span>
+                  34’ S 49' N
+                </p>
+                <h3 class="pb-1">Hilier Bracelet</h3>
+                <p class="budget-text  pb-3 pb-3">100 PLN</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item col-lg-3">
+          <div class="card">
+            <div class="card-content">
+              <img class="product-img" src="./img/product4.png" alt="Hilier Bracelet">
+              <div class="container">
+                <p class="compass-text">
+                  <span><img src="./img/compass.png" alt="compass"></span>
+                  34’ S 49' N
+                </p>
+                <h3 class="pb-1">Hilier Bracelet</h3>
+                <p class="budget-text  pb-3 pb-3">100 PLN</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-lg-3">
+          <div class="card">
+            <div class="card-content">
+              <img class="product-img" src="./img/product5.png" alt="Hilier Bracelet">
+              <div class="container">
+                <p class="compass-text">
+                  <span><img src="./img/compass.png" alt="compass"></span>
+                  34’ S 49' N
+                </p>
+                <h3 class="pb-1">Hilier Bracelet</h3>
+                <p class="budget-text  pb-3 pb-3">100 PLN</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon carousel-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon carousel-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- Bracelet Outline -->
+  <section class="outline-title-section d-flex align-items-center justify-content-center text-center">
+    <div class="outline-title-section-text">
+      <h1 class="mb-5">Za każdą bransoletką stoi autentyczna wyprawa.</h1>
+      <p>Poznaj nasze opowieści i kolekcje</p>
+    </div>
+  </section>
+  <!-- Rain forest -->
+  <div class="row w-100 mx-0">
+    <div class="card card-content col-md-4">
+      <img src="./img/product5.png" alt="Rain forest" class="outline-card-img">
+      <div class="container">
+        <p>
+          <span><img src="./img/compass.png" alt="compass"></span>
+          34’ S 49' N
+        </p>
+        <h2>Rain forest</h2>
+        <p>Smooth cruising across the great blue.<br>
+          The area of water around 30'S to 30'N is known
+          to be one of the best places for sailing.</p>
+        <button type="button" class="btn btn-outline-dark btn-customize my-3">Kup branzoletkę</button>
+      </div>
+    </div>
+    <div class="col-md-8 px-0">
+      <img src="./img/Home/outline1.png" alt="Rain forest" class="w-100 h-100">
+    </div>
+  </div>
+  <!-- Cyklady -->
+  <div class="row w-100 mx-0">
+    <div class="card card-content col-md-4 order-md-12">
+      <img src="./img/product2.png" alt="Cyklady" class="outline-card-img">
+      <div class="container outline-card-text">
+        <p>
+          <span><img src="./img/compass.png" alt="compass"></span>
+          34’ S 49' N
+        </p>
+        <h2>Cyklady</h2>
+        <p>Smooth cruising across the great blue.<br>
+          The area of water around 30'S to 30'N is known
+          to be one of the best places for sailing.</p>
+        <button type="button" class="btn btn-outline-dark btn-customize my-3">Kup branzoletkę</button>
+      </div>
+    </div>
+    <div class="col-md-8 px-0 order-md-1">
+      <img src="./img/Home/outline2.png" alt="Cyklady" class="w-100 h-100">
+    </div>
+  </div>
+  <!-- Arktyka -->
+  <div class="row w-100 mx-0 arktyka">
+    <div class="card card-content col-md-4 px-0">
+      <img src="./img/product6.png" alt="Arktyka" class="outline-card-full-img">
+      <div class="container outline-card-text">
+        <p>
+          <span><img src="./img/compass.png" alt="compass"></span>
+          34’ S 49' N
+        </p>
+        <h2>Arktyka</h2>
+        <p">Smooth cruising across the great blue.<br>
+          The area of water around 30'S to 30'N is known
+          to be one of the best places for sailing.</p>
+          <button type="button" class="btn btn-outline-dark btn-customize my-3">Kup branzoletkę</button>
+      </div>
+    </div>
+    <div class="col-md-8 px-0">
+      <img src="./img/Home/outline3.png" alt="Arktyka" class="w-100 h-100">
+    </div>
+  </div>
+  <!-- Wolność i przygoda-->
+  <section class="section1 d-flex align-items-center justify-content-center text-center">
+    <div class="text-white section1-text">
+      <h1>Wolność i przygoda</h1>
+      <p>Ocean zawsze przyciągał ludzi łaknących przygód. W dawnych czasach podróż przez wielką
+        wodę oznaczała nowe odkrycia, a także niepewność losu.
+        Dziś ruszamy w morze w tych samych celach. Chcemy poczuć luz i głęboką wewnętrzną
+        wolność. Stanąć na dziobie i poczuć jak na naszymi plecami zostaje codzienność a przed nami
+        rozpościera się bezkresny błękit. Płyniemy poza horyzont, po przygodę, po nasze osobiste
+        odkrycia. Wśród skwaru południowego słońca, wysokich fal szkwału, Arktycznych mrozów,
+        odkrywamy nieznane dla nas lądy i coś jeszcze... siebie</p>
+      <button type="button" class="btn btn-light btn-customize mt-3">Dowiedz się więcej</button>
+    </div>
+  </section>
+  <!-- Tworzone ręcznie -->
+  <section class="row mx-0">
+    <div class="col-md-8">
+      <img src="./img/Home/sec_img2.png" alt="Tworzone ręcznie" class="w-100">
+    </div>
+    <div class="tworzone-text col-md-4">
+      <div class="mx-4 tworzone-text-content">
+        <h1 class="pb-4">Tworzone ręcznie</h1>
+        <p class="pb-4">Tworzymy w Polsce, wysyłamy za darmo w każde
+          miejsce na świecie.</p>
+        <button type="button" class="btn btn-outline-dark btn-customize">Dowiedz się więcej</button>
+      </div>
+    </div>
+  </section>
+  <!-- Dbamy o oceany-->
+  <section class="section2 d-flex align-items-center justify-content-center text-center">
+    <div class="section2-text text-white">
+      <h1>Dbamy o oceany</h1>
+      <p>Ilość plasku wykorzystywana do produkcji bransoletki jest poniżej 1% jej masy<br>
+        Reszta to bawełna i stal.</p>
+      <button type="button" class="btn btn-light btn-customize mt-3">Dowiedz się więcej</button>
+    </div>
+  </section>
+  <!-- Morskie opowieści -->
+  <section class="story-section container-fluid">
+    <h2 class="story-title">Morskie opowieści</h2>
+
+    <div id="storyCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+      <div class="carousel-inner row">
+        <div class="carousel-item col-lg-3 active">
+          <!-- Karaiby -->
+          <div class="card">
+            <div class="card-content">
+              <img src="./img/Home/story_card1.png" alt="Hilier Bracelet" class="w-100">
+              <div class="container">
+                <h3 class="mt-4 mb-3">Karaiby</h3>
+                <p class="mb-4">Smooth cruising across the great blue.
+                  The area of water around 30'S to 30'N is
+                  known to be one of the best places for
+                  sailing.</p>
+                <button type="button" class="btn btn-outline-dark btn-customize my-4">Przeczytaj</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-lg-3">
+          <!-- Arktyka -->
+          <div class="card">
+            <div class="card-content">
+              <img src="./img/Home/story_card2.png" alt="Hilier Bracelet" class="w-100">
+              <div class="container">
+                <h3 class="mt-4 mb-3">Arktyka</h3>
+                <p class="mb-4">Smooth cruising across the great blue.
+                  The area of water around 30'S to 30'N is
+                  known to be one of the best places for
+                  sailing.</p>
+                <button type="button" class="btn btn-outline-dark btn-customize my-4">Przeczytaj</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-lg-3">
+          <!-- Hilier -->
+          <div class="card">
+            <div class="card-content">
+              <img src="./img/Home/story_card3.png" alt="Hilier Bracelet" class="w-100">
+              <div class="container">
+                <h3 class="mt-4 mb-3">Hilier</h3>
+                <p class="mb-4">Smooth cruising across the great blue.
+                  The area of water around 30'S to 30'N is
+                  known to be one of the best places for
+                  sailing.</p>
+                <button type="button" class="btn btn-outline-dark btn-customize my-4">Przeczytaj</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item col-lg-3">
+          <!-- Korsyka -->
+          <div class="card">
+            <div class="card-content">
+              <img src="./img/Home/story_card4.png" alt="Hilier Bracelet" class="w-100">
+              <div class="container">
+                <h3 class="mt-4 mb-3">Korsyka</h3>
+                <p class="mb-4">Smooth cruising across the great blue.
+                  The area of water around 30'S to 30'N is
+                  known to be one of the best places for
+                  sailing.</p>
+                <button type="button" class="btn btn-outline-dark btn-customize my-4">Przeczytaj</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-lg-3">
+          <!-- Korsyka -->
+          <div class="card">
+            <div class="card-content">
+              <img src="./img/Home/story_card3.png" alt="Hilier Bracelet" class="w-100">
+              <div class="container">
+                <h3 class="mt-4 mb-3">Korsyka</h3>
+                <p class="mb-4">Smooth cruising across the great blue.
+                  The area of water around 30'S to 30'N is
+                  known to be one of the best places for
+                  sailing.</p>
+                <button type="button" class="btn btn-outline-dark btn-customize my-4">Przeczytaj</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#storyCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon carousel-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#storyCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon carousel-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- Newsletter -->
+  <section class="news-section d-flex justify-content-center align-items-center">
+    <div>
+      <div class="news-content text-center">
+        <h1>Newsletter</h1>
+        <p>Dowiaduj się o nowych kolekcjach jako pierwszy.<br>
+          Znajdź inspiracje dla swoich podróży.<br>
+          Wskakuj na pokład!</p>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <input type="email" class="form-control inputctrl mr-4" id="email" placeholder="Email Address">
+        <button type="button" class="btn btn-outline-dark btn-customize mx-4">Zapisuję się</button>
+      </div>
+    </div>
+  </section>
+  <!-- Zainspiruj się -->
+  <section class="img-group-section container-fluid px-5">
+    <h2 class="img-group-title">Zainspiruj się</h2>
+    <div class="row">
+      <div class="column">
+        <img src="./img/Home/img_grid1.png" style="width:100%">
+        <img src="./img/Home/img_grid2.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="./img/Home/img_grid3.png" style="width:100%">
+        <img src="./img/Home/img_grid4.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="./img/Home/img_grid5.png" style="width:100%">
+        <img src="./img/Home/img_grid6.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="./img/Home/img_grid7.png" style="width:100%">
+        <img src="./img/Home/img_grid8.png" style="width:100%">
+      </div>
+    </div>
+  </section>
+  <!-- Hold Fast -->
+  <section class="hold-section d-flex justify-content-center align-items-center">
+    <div class="text-center">
+      <h1 class="mb-4">Hold Fast</h1>
+      <p>W dawnych czasach los marynarza oznaczał podróże w nieznane i niepewność czy uda się wrócić<br>
+        na stały ląd. Wśród marynarzy krążyły opowieści o tych, którzy zagubili się podczas rejsu i słuch po<br>
+        nich zaginął. By uniknąć tego losu, marynarze przywiązywali wagę do talizmanów i przestrzegali<br>
+        wielu najdziwniejszych przesądów. Jednym z tych symboli był napis HOLD FAST wytatuowany na<br>
+        palcach marynarza. Marynarz powinien zawsze trzymać jedną rękę na nieruchomej części statku,<br>
+        tym samym zapewniając sobie bezpieczeństwo (HOLD) i wykonywać każdą czynność tak szybko,<br>
+        jak to możliwe i móc szybko wrócić do bezpiecznego kokpitu statku (FAST).<br>
+        Dla nas Hold Fast stało się moem. Inspiruje nas by zawsze trzymać się tego co dla nas<br>
+        najważniejsze. Na pełnym morzu i w miejskiej dżungli.</p>
+      <button type="button" class="btn btn-outline-dark btn-customize mt-4">Dowiedz się więcej</button>
+    </div>
+  </section>
+  <div class="img-text-section">
+    <h1 class="img-text img-text-first">
+      HOLD&nbsp;FAST&nbsp;!&nbsp;HOLD&nbsp;FAST&nbsp;!&nbsp;HOLD&nbsp;FAST&nbsp;!
+    </h1>
+    <h1 class="img-text img-text-second">
+      HOLD&nbsp;FAST&nbsp;!&nbsp;HOLD&nbsp;FAST&nbsp;!&nbsp;HOLD&nbsp;FAST&nbsp;!
+    </h1>
+  </div>
+  <!-- Image Section -->
+  <div class="section4"></div>
+  <footer class="d-flex justify-content-center">
+    <div class=" row text-white">
+      <div class="col-lg-3">
+        <div class="d-flex footer-icons">
+          <a href="#" class="fa fa-facebook mr-3"></a>
+          <a href="#" class="fa fa-instagram ml-3"></a>
+        </div>
+        <div>
+          <p>@ 2021 TwistedTriton.</p>
+          <p>All rights reserved.</p>
+          <p>Design Stereoplan</p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <h3 class="footer-title">Bezpieczne zakupy</h3>
+        <p>Obsługujemy wszystkie rodzaje płatności</p>
+      </div>
+      <div class="col-lg-3">
+        <h3 class="footer-title">Obsługa klienta</h3>
+        <p>Dostawa</p>
+        <p>Zwroty</p>
+        <p>Płatności</p>
+        <p>Polityka prywatności</p>
+        <p>Regulamin</p>
+        <p>Sprawdź rozmiar</p>
+      </div>
+      <div class="col-lg-3">
+        <h3 class="footer-title">Twisted Triton</h3>
+        <p>Jeżeli masz pytanie o napisz do nas</p>
+        <p>info@twisted triton.com</p>
+        </br>
+        <p>Twisted Triton</p>
+        <p>ul. Karmelicka 12/45</p>
+        <p>31-332 Kraków</p>
+        <p>+48 567 890 432</p>
+      </div>
+    </div>
+  </footer>
+  <script src='https://unpkg.com/jquery@3.3.1/dist/jquery.js'></script>
+  <script src='https://unpkg.com/popper.js@1.12.9/dist/umd/popper.js'></script>
+  <script src='https://unpkg.com/bootstrap@4.0.0/dist/js/bootstrap.js'></script>
+  <script src='./js/script.js'></script>
+</body>
+
+</html>

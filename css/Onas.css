@@ -1,0 +1,139 @@
+.navbar {
+  position: absolute;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  padding-top: 0px;
+}
+
+.navbar-brand:hover {
+  color: #fff !important;
+  padding-top: 0px;
+}
+
+.nav-link,
+.dropdown-item {
+  color: #fff !important;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  padding-top: 0px;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  color: #ccc !important;
+  cursor: pointer;
+  padding-top: 0px;
+}
+
+.main-section {
+  background-image: url("../img/Onas/main-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100vh;
+  padding-bottom: 0;
+}
+
+.main-section-text {
+  width: 40%;
+}
+
+.main-section-text-body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+section .row,
+section .col-lg-4,
+section .col-lg-8 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.banner-text-content {
+  padding: 60px;
+}
+
+.section-text {
+  min-height: 630px;
+}
+
+.img-text-section {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.img-text {
+  font-family: 'PermianSlabSeri';
+  font-size: 90px;
+  font-weight: bold;
+  position: relative;
+}
+
+.img-text-first {
+  left: -500px;
+  width: 2000px;
+}
+
+.img-text-second {
+  left: -140px;
+  width: 2000px;
+}
+
+@media (max-width: 1400px) {
+  .main-section-text-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-section-text {
+    width: 70%;
+  }
+
+  .main-section-text p {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .banner-text-content {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .img-text-section {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 40px;
+  }
+
+  .img-text {
+    font-family: 'PermianSlabSeri';
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+  }
+
+  .img-text-first {
+    left: -950px;
+    width: 2000px;
+  }
+
+  .img-text-second {
+    left: -770px;
+    width: 2000px;
+  }
+}

@@ -1,0 +1,340 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'PermianSlabSeri';
+  font-size: 56px;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'PermianSlabSeri';
+  font-size: 38px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'PermianSlabSeri';
+  font-size: 26px;
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Lato';
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.btn-customize {
+  border-radius: 40px;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: medium;
+  padding: 18px 36px;
+}
+
+.btn-arrow {
+  border-radius: 20px;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: medium;
+  padding: 18px 36px;
+}
+
+header {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+.navbar {
+  min-height: 152px;
+  padding: 29px 28px 0px 28px;
+  width: 100%;
+}
+
+.navbar-collapse {
+  position: absolute;
+}
+
+.navbar-toggler-icon {
+  width: 16px;
+  height: 14px;
+}
+
+.navbar-brand,
+.nav-link,
+.dropdown-item {
+  font-size: 16px;
+}
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+  transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+  background: none;
+  border: none;
+}
+
+.dropdown-item:hover {
+  background: none;
+}
+
+.logo-img {
+  position: absolute;
+  left: 48%;
+}
+
+.logo {
+  width: 85px;
+  height: 124px;
+}
+
+.basket-text {
+  display: block;
+}
+
+.basket-icon {
+  display: none;
+}
+
+footer {
+  background-color: #000916;
+  padding-top: 102px;
+  min-height: 581px;
+}
+
+footer>.row {
+  min-width: 1400px;
+}
+
+.footer-title {
+  padding-bottom: 40px;
+}
+
+.footer-icons {
+  padding-bottom: 30px;
+}
+
+footer p {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.fa {
+  width: 56px;
+  height: 56px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-facebook {
+  background: #000916;
+}
+
+.fa-instagram {
+  background: #000916;
+}
+
+.fa-angle-down {
+  width: 40px;
+  height: 40px;
+  color: #000 !important;
+  background: none;
+  border: 0px;
+  border-radius: 0px !important;
+  font-size: 45px;
+}
+
+@media (max-width: 1600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .navbar-brand-content {
+    margin-top: -3px;
+  }
+
+  .navbar-brand,
+  .nav-link,
+  .dropdown-item {
+    font-size: 13px;
+  }
+
+  .navbar .nav-item:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .logo {
+    width: 45px;
+    height: 67px;
+  }
+
+  .logo-img {
+    position: absolute;
+    left: 48%;
+  }
+
+  .btn-customize {
+    padding: 10px 20px;
+  }
+
+  .btn-arrow {
+    border-radius: 20px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: medium;
+    padding: 4px 8px;
+  }
+
+  .fa {
+    width: 45px;
+    height: 45px;
+  }
+
+  .fa-angle-down {
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+  }
+
+  footer {
+    min-height: 481px;
+  }
+
+  footer>.row {
+    min-width: 1200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  h3 {
+    font-size: 22px;
+  }
+
+  .logo {
+    width: 54px;
+    height: 82px;
+  }
+
+  .logo-img {
+    position: absolute;
+    left: 46%;
+  }
+
+  .navbar .nav-item:not(:last-child) {
+    margin-right: 0px;
+  }
+
+  footer>.row {
+    min-width: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .logo-img {
+    position: absolute;
+    left: 45%;
+  }
+
+  .basket-text {
+    display: none;
+  }
+
+  .basket-icon {
+    display: block;
+    padding-top: 7px;
+  }
+
+  footer {
+    padding-left: 30px;
+    padding-right: 15px;
+  }
+
+  footer .col-lg-3 {
+    padding: 25px 10px;
+  }
+
+  footer>.row {
+    min-width: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .logo-img {
+    position: absolute;
+    left: 43%;
+  }
+
+  .logo {
+    width: 52px;
+    height: 75px;
+  }
+
+  .basket-icon {
+    padding-top: 5px;
+  }
+
+  footer {
+    padding-left: 30px;
+    padding-right: 15px;
+  }
+
+  footer .col-lg-3 {
+    padding: 25px 10px;
+  }
+}
